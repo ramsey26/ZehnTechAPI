@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace API.Controllers
 {
-   // [Authorize]
+    [Authorize]
     public class ProductsController : Controller
     {
         private readonly IProductService _productService;
